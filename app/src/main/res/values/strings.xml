@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">makharij al-huruf</string>
+    <string name="Halqiyah">Halqiyah</string>
+    <string name="Lahatiyah">Lahatiyah</string>
+    <string name="Shajariyah">Shajariyah-Haafiyah</string>
+    <string name="Tarfiyah">Tarfiyah</string>
+    <string name="Niteeyah">Nit-eeyah</string>
+    <string name="Lisaveyah">Lisaveyah</string>
+    <string name="Ghunna">Ghunna</string>
+    <string name="Show"></string>
+</resources>
