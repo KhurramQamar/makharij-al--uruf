@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MakharijAlhuruf">
         <activity
-            android:name=".Exam"
+            android:name=".HomeScreen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,13 +19,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Exam"
+            android:exported="true"/>
+
+        <activity
             android:name=".Practice"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>

@@ -7,6 +7,10 @@
     <string name="Niteeyah">Nit-eeyah</string>
     <string name="Lisaveyah">Lisaveyah</string>
     <string name="Ghunna">Ghunna</string>
-    <string name="Show"></string>
+    <string name="name"> Name           Khurram Qamar</string>
+    <string name="Roll"> ROLL No        BCSF18M006</string>
+    <string name="Repo">Click here for Repository</string>
+    <string name="Practice"> Learning Makharij al-Huruf</string>
+    <string name="Exam"> Take Quiz</string>
     <string name="Emission">Click the Buttons Below for explanation</string>
 </resources>

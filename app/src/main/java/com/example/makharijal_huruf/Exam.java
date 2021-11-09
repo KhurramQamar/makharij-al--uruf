@@ -72,7 +72,7 @@ public class Exam extends AppCompatActivity {
 
         tv0 = new TextView(this);
 
-        tv0.setText("Wrong : " + String.valueOf(5-count));
+        tv0.setText("Wrong : " + String.valueOf(10-count));
         tv0.setTextSize(25);
         tv0.setTypeface(null, Typeface.BOLD);
         tbRow.addView(tv0);
