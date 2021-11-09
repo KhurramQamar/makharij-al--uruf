@@ -94,9 +94,12 @@
         android:id="@+id/textView"
         android:layout_width="414dp"
         android:layout_height="61dp"
-        android:text="Emission"
+        android:layout_marginBottom="1dp"
+        android:text="@string/Emission"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
 
     <ImageView
         android:id="@+id/imageView4"

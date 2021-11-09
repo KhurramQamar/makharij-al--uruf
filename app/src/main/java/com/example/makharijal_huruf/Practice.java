@@ -16,6 +16,7 @@ public class Practice extends AppCompatActivity {
 
     public TextView txtView;
     public TextView sound;
+    public TextView head;
     public ImageView img;
 
     @Override
@@ -24,6 +25,9 @@ public class Practice extends AppCompatActivity {
         setContentView(R.layout.activity_practice);
         String BtnName = getIntent().getStringExtra("button");
         img=findViewById(R.id.imageView);
+        head=findViewById(R.id.Heading);
+        head.setText(BtnName.toString());
+
         if (BtnName.equals("Halqiyah")) {
             txtView = (TextView) findViewById(R.id.ShowLet);
             sound=(TextView) findViewById(R.id.Showsound);
@@ -104,8 +108,17 @@ public class Practice extends AppCompatActivity {
             txtView = (TextView) findViewById(R.id.ShowLet);
             sound=(TextView) findViewById(R.id.Showsound);
             for (int i = 0; i < GhunnaArr.length; i++) {
-                if (i<2) {
+                if (i==0)
+                {
                     txtView.append(GhunnaArr[i].letters + "\n\n");
+                    sound.append(GhunnaArr[i].soundProduced + "\n");
+                }
+                else if (i==1) {
+                    txtView.append(GhunnaArr[i].letters + "\n\n");
+                    sound.append(GhunnaArr[i].soundProduced + "\n\n");
+                }
+                else if (i==2){
+                    txtView.append(GhunnaArr[i].letters +"\n");
                     sound.append(GhunnaArr[i].soundProduced + "\n\n");
                 }
                 else {
