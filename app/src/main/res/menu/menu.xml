@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_practice"
+        android:title="@string/Practise"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_halqiyah"
+        android:title="@string/Halqiyah"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_lahatiyah"
+        android:title="@string/Lahatiyah"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_shajariyah"
+        android:title="@string/Shajariyah"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_tarfiyah"
+        android:title="@string/Tarfiyah"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_niteeyah"
+        android:title="@string/Niteeyah"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_lisaveyah"
+        android:title="@string/Lisaveyah"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_ghunna"
+        android:title="@string/Ghunna"
+        app:showAsAction="never"/>
+</menu>

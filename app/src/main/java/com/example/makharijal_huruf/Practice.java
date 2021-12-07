@@ -48,8 +48,6 @@ public class Practice extends AppCompatActivity {
                         sound.append(HalqiyahArr[i].soundProduced + "\n");
                     }
 
-
-
             }
             img.setBackgroundResource(R.drawable.halqiyah);
 
