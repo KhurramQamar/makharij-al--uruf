@@ -18,7 +18,8 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
         repo=findViewById(R.id.repo);
-        
+        practice=findViewById(R.id.learning);
+        exam=findViewById(R.id.exam);
         repo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
