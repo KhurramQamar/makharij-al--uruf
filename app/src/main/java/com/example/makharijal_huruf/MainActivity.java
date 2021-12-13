@@ -69,7 +69,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        
+        Niteeyah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newintent= new Intent(MainActivity.this,Practice.class);
+                newintent.putExtra("button", "Niteeyah");
+                startActivity(newintent);
+            }
         });
         Lisaveyah.setOnClickListener(new View.OnClickListener() {
             @Override
