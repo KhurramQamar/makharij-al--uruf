@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Lisaveyah=(Button)findViewById(R.id.Lisaveyah);
         Ghunna=(Button)findViewById(R.id.Ghunna);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        
 
         Halqiyah.setOnClickListener(new View.OnClickListener() {
             @Override
