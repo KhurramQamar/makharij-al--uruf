@@ -85,14 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        Ghunna.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent newintent= new Intent(MainActivity.this,Practice.class);
-                newintent.putExtra("button", "Ghunna");
-                startActivity(newintent);
-            }
-        });
+        
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
