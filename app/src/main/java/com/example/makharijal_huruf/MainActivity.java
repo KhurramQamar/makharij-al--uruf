@@ -53,14 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(newintent);
             }
         });
-        Shajariyah.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent newintent= new Intent(MainActivity.this,Practice.class);
-                newintent.putExtra("button", "Shajariyah");
-                startActivity(newintent);
-            }
-        });
+       
         Tarfiyah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
