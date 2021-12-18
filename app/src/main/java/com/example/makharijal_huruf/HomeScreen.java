@@ -38,10 +38,7 @@ public class HomeScreen extends AppCompatActivity {
         });
         exam.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent newintent= new Intent(HomeScreen.this,Exam.class);
-
-                startActivity(newintent);
+            
             }
         });
     }
